@@ -2,7 +2,7 @@ import Color from "./components/Color";
 import Counter from "./components/Counter";
 import Toggle from "./components/Toggle";
 import Light from './components/Light';
-import Eco from "./components/Eco";
+import EcoClass from "./components/EcoClass";
 
 function App() {
 	return (
@@ -11,7 +11,7 @@ function App() {
             <Color />
             <Toggle />
 		    <Light />
-			<Eco />
+			<EcoClass />
 		</div>
 	);
 }
